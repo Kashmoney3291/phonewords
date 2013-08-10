@@ -8,5 +8,8 @@ package com.clbs.dict;
  * To change this template use File | Settings | File Templates.
  */
 public interface IEnglishDictionary {
+    /**
+     * Determines if a string is a word in the implementation of the English dictionary.
+     */
     boolean isWord(String str);
 }
